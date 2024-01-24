@@ -212,6 +212,7 @@ table_div.setAttribute("class", "table-responsive");
 
 let table_tag = createtable("table");
 table_tag.classList.add("table", "table-bordered");
+table_tag.setAttribute("id", "table");
 
 let table_body = createtable("tbody");
 table_body.setAttribute("id", "t-body");
